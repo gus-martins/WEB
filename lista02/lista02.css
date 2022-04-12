@@ -1,0 +1,64 @@
+/* navegação e publicações */
+.navegation,.posts{  
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+.navegation:hover,.posts:hover{  
+    background-color: rgba(15, 25, 20, 0.1);
+    border-radius: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.statistics{
+    text-decoration: none;
+    color: rgb(83, 100, 113);
+}
+
+.statistics:hover{
+    text-decoration: underline;
+}
+
+#bold{
+    font-weight: bold;
+    color:rgb(15, 20, 25);
+}
+
+#actions a{
+    text-decoration: none;
+    color:rgb(83, 100, 113);
+}
+
+.replyAndShare:hover{
+    background-color: rgba(29, 155, 240, 0.5);
+    color: rgba(29, 155, 240, 1);
+    border-radius: 10px;
+}
+
+.retzeet:hover{
+    background-color: rgba(0, 186, 124, 0.5);
+    color: rgba(0, 186, 124, 1);
+    border-radius: 10px;    
+
+}
+
+.like:hover{
+    background-color: rgba(249, 24, 128, 0.5);
+    color: rgba(249, 24, 128, 1);
+    border-radius: 10px;
+}
+
+#tzeet:hover{
+    background-color: rgba(249, 24, 128, 0.1);
+}
+
+#userId{
+    color: rgb(83, 100, 113);
+}
+
+#textBody{
+    color: rgb(15, 20, 25);
+}
