@@ -1,90 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <title>lista 03</title>
 </head>
+
 <body>
+    <main>
+        <!-- inicio navbar -->
 
-    <!--inicio da navegação-->
-    <nav>
-        <a href="" class = "navegation ">Home</a><br>
-        <a href="" class = "navegation ">Explore</a><br>
-        <a href="" class = "navegation ">Notifications</a><br>
-        <a href="" class = "navegation ">Messages</a><br>
-        <a href="" class = "navegation ">Bookmarks</a><br>
-        <a href="" class = "navegation ">Lists</a><br>
-        <a href="" class = "navegation ">Profile</a><br>
-        <a href="" class = "navegation ">More</a><br>
-    </nav>
-        <br>
+        <nav>
+            <img src="assets\tiziu.png" alt="" class="ms-5 mt-2 mb-2">
+            <ul>
+                <li class="nav-item">
+                    <a href="" class="navegation">
+                        <i class="bi bi-house me-2"></i>Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation">
+                        <i class="bi bi-hash me-2"></i>Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-bell me-2"></i>Notifications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-envelope me-2"></i>Messages</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-person-fill me-2"></i>Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-three-dots me-2"></i>More</a>
+                </li>
+            </ul>
+        </nav>
 
-    <!--fim da navegação-->
 
-    <img src="C:\github\WEB\lista03\assets\profile.jpg" 
-        height="100" 
-        width="100"> 
+        <!--fim da navbar-->
 
-    <h4 id="textBody">Gustavo Martins</h4>
-    <h5 id="userId">@gus.mrtns</h5>
+        <img src="C:\github\WEB\pastaDesWeb\WEB\lista03\assets\profile.jpg" height="100" width="100">
 
-    <button type="button">Edit profile</button>
-    <p id="textBody">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well.</p>
+        <h4 id="textBody">Gustavo Martins</h4>
+        <h5 id="userId">@gus.mrtns</h5>
 
-    <ul class="userId">
-        Quixadá - CE 
-        Joined July 06 2014
-    </ul>
-    <ul class="statistics">
-        <span id="bold">542</span> <span>following</span>
-        <span id="bold">387</span> <span>followers</span>
-    </ul>
+        <button type="button">Edit profile</button>
+        <p id="textBody">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well.</p>
 
-    
-        <a class="posts" href="" >Tzeets</a>
+        <ul class="userId">
+            Quixadá - CE
+            Joined July 06 2014
+        </ul>
+        <ul class="statistics">
+            <span id="bold">542</span> <span>following</span>
+            <span id="bold">387</span> <span>followers</span>
+        </ul>
+
+
+        <a class="posts" href="">Tzeets</a>
         <a class="posts" href="">Tzeets & Replies</a>
         <a class="posts" href="">Media</a>
         <a class="posts" href="">Likes</a>
-    
-    <div id="tzeet">
-    <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Jun 22, 2022</span></p>
-    <p id="textBody"> 
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore 
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis 
-        suscipit laboriosam, nisi ut aliquid ex ea commod
-    </p> 
-    </div>   
 
-    <div id="actions">
-    <a class="replyAndShare" href="">Reply</a>
-    <a class="retzeet" href="">Retzeet</a>
-    <a class="like" href="">Like</a>
-    <a class="replyAndShare" href="">Share</a>
-    </div>
-
-    <div id="tzeet">
-    <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Sep 15, 2021</span></p>
-    <p id="textBody"> 
-        Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore 
-        et dolore magna aliqua.
-    </p>
-    </div>
-    
-    <div id="actions">
-        <a class="replyAndShare" href="">Reply</a>
-        <a class="retzeet" href="">Retzeet</a>
-        <a class="like" href="">Like</a>
-        <a class="replyAndShare" href="">Share</a>
+        <div id="tzeet">
+            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Jun 22, 2022</span></p>
+            <p id="textBody">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commod
+            </p>
         </div>
 
+        <div id="actions">
+            <a class="replyAndShare" href="">Reply</a>
+            <a class="retzeet" href="">Retzeet</a>
+            <a class="like" href="">Like</a>
+            <a class="replyAndShare" href="">Share</a>
+        </div>
 
+        <div id="tzeet">
+            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Sep 15, 2021</span></p>
+            <p id="textBody">
+                Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                et dolore magna aliqua.
+            </p>
+        </div>
+
+        <div id="actions">
+            <a class="replyAndShare" href="">Reply</a>
+            <a class="retzeet" href="">Retzeet</a>
+            <a class="like" href="">Like</a>
+            <a class="replyAndShare" href="">Share</a>
+        </div>
+
+    </main>
 
 </body>
+
 </html>
