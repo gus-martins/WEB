@@ -15,99 +15,129 @@
     <title>lista 03</title>
 </head>
 
-<body>
-    <main>
-        <!-- inicio navbar -->
+<body class="d-flex">
+    <!-- inicio navbar -->
+    <nav class="rightMenu">
+        <img src="assets\tiziu.png" alt="" class="ms-5 mt-2 mb-2">
+        <ul class="ps-5">
+            <li class="nav-item">
+                <a href="" class="navegation">
+                    <i class="bi bi-house me-2"></i>Home
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="navegation">
+                    <i class="bi bi-hash me-2"></i>Explore</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="navegation ">
+                    <i class="bi bi-bell me-2"></i>Notifications</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="navegation ">
+                    <i class="bi bi-envelope me-2"></i>Messages</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="navegation ">
+                    <i class="bi bi-person-fill me-2"></i>Profile</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="navegation ">
+                    <i class="bi bi-three-dots me-2"></i>More</a>
+            </li>
+        </ul>
 
-        <nav>
-            <img src="assets\tiziu.png" alt="" class="ms-5 mt-2 mb-2">
-            <ul>
-                <li class="nav-item">
-                    <a href="" class="navegation">
-                        <i class="bi bi-house me-2"></i>Home
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="navegation">
-                        <i class="bi bi-hash me-2"></i>Explore</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="navegation ">
-                        <i class="bi bi-bell me-2"></i>Notifications</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="navegation ">
-                        <i class="bi bi-envelope me-2"></i>Messages</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="navegation ">
-                        <i class="bi bi-person-fill me-2"></i>Profile</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="navegation ">
-                        <i class="bi bi-three-dots me-2"></i>More</a>
-                </li>
+        <button type="button" id="button" class="btn rounded-pill ms-5 ps-5 pe-5">Teezar </button>
+
+    </nav>
+
+
+    <!--fim da navbar-->
+    <main class="border-start border-end">
+        <div class="border">
+            <div class="row align-items-end">
+                <div class="col-2 img-fluid ">
+                    <img src="C:\github\WEB\pastaDesWeb\WEB\lista03\assets\profile.jpg" class="imgProfile" height="100"
+                        width="100">
+                </div>
+
+                <div class="col-8"></div>
+
+                <div class="col-2">
+                    <button type="button" id="button" class="btn ps-4 pe-4">Edit profile</button>
+                </div>
+            </div>
+
+            <h4 id="textBody">Gustavo Martins</h4>
+            <h5 id="userId">@gus.mrtns</h5>
+
+            <p id="textBody">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well.</p>
+
+
+            <ul class="userId">
+                Quixadá - CE
+                Joined July 06 2014
             </ul>
-        </nav>
+            <ul class="statistics">
+                <span id="bold">542</span> <span>following</span>
+                <span id="bold">387</span> <span>followers</span>
+            </ul>
 
-
-        <!--fim da navbar-->
-
-        <img src="C:\github\WEB\pastaDesWeb\WEB\lista03\assets\profile.jpg" height="100" width="100">
-
-        <h4 id="textBody">Gustavo Martins</h4>
-        <h5 id="userId">@gus.mrtns</h5>
-
-        <button type="button">Edit profile</button>
-        <p id="textBody">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well.</p>
-
-        <ul class="userId">
-            Quixadá - CE
-            Joined July 06 2014
-        </ul>
-        <ul class="statistics">
-            <span id="bold">542</span> <span>following</span>
-            <span id="bold">387</span> <span>followers</span>
-        </ul>
-
-
-        <a class="posts" href="">Tzeets</a>
-        <a class="posts" href="">Tzeets & Replies</a>
-        <a class="posts" href="">Media</a>
-        <a class="posts" href="">Likes</a>
-
-        <div id="tzeet">
-            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Jun 22, 2022</span></p>
-            <p id="textBody">
-                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commod
-            </p>
+            <div class="row">
+                <a class="posts col-3" href="">Tzeets</a>
+                <a class="posts col-3" href="">Tzeets & Replies</a>
+                <a class="posts col-3" href="">Media</a>
+                <a class="posts col-3" href="">Likes</a>
+            </div>
         </div>
 
-        <div id="actions">
-            <a class="replyAndShare" href="">Reply</a>
-            <a class="retzeet" href="">Retzeet</a>
-            <a class="like" href="">Like</a>
-            <a class="replyAndShare" href="">Share</a>
-        </div>
 
-        <div id="tzeet">
-            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Sep 15, 2021</span></p>
-            <p id="textBody">
-                Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
-                et dolore magna aliqua.
-            </p>
-        </div>
+        <div class="border">
+            <div id="tzeet">
+                <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Jun 22, 2022</span></p>
+                <p id="textBody">
+                    Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+                    suscipit laboriosam, nisi ut aliquid ex ea commod
+                </p>
+                <div id="actions">
+                    <a class="replyAndShare" href="">Reply</a>
+                    <a class="retzeet" href="">Retzeet</a>
+                    <a class="like" href="">Like</a>
+                    <a class="replyAndShare" href="">Share</a>
+                </div>
+            </div>
 
-        <div id="actions">
-            <a class="replyAndShare" href="">Reply</a>
-            <a class="retzeet" href="">Retzeet</a>
-            <a class="like" href="">Like</a>
-            <a class="replyAndShare" href="">Share</a>
+            <div id="tzeet">
+                <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Sep 15, 2021</span></p>
+                <p id="textBody">
+                    Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                    et dolore magna aliqua.
+                </p>
+                <div id="actions">
+                    <a class="replyAndShare" href="">Reply</a>
+                    <a class="retzeet" href="">Retzeet</a>
+                    <a class="like" href="">Like</a>
+                    <a class="replyAndShare" href="">Share</a>
+                </div>
+            </div>
         </div>
-
     </main>
+
+    <!-- rodapé -->
+    <div>
+        <footer>
+            <p>
+                <a href="">About</a>
+                <a href="">Help</a>
+                <a href="">Terms</a>
+                <a href="">Privacy</a>
+                <a href="">Cookies</a>
+                <a href="">Advertise</a>
+                <a href="">Contact</a>
+    </div>
+
+
 
 </body>
 

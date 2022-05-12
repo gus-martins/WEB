@@ -61,3 +61,32 @@
 #textBody {
     color: rgb(15, 20, 25);
 }
+
+#button {
+    background-color: #1da1f2;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#button:hover {
+    color: rgba(255, 255, 255, 0.834);
+    background-color: rgb(15, 145, 196);
+}
+
+.rightMenu {
+    width: 20rem;
+    font-size: 19px;
+
+}
+
+.nav-item {
+    margin-bottom: 5px;
+}
+
+.imgProfile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
