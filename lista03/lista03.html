@@ -17,55 +17,63 @@
 
 <body class="d-flex">
     <!-- inicio navbar -->
-    <nav class="rightMenu">
+    <nav class="leftMenu">
         <img src="assets\tiziu.png" alt="" class="ms-5 mt-2 mb-2">
-        <ul class="ps-5">
+        <ul class="navBar px-3 ps-5">
             <li class="nav-item">
                 <a href="" class="navegation">
-                    <i class="bi bi-house me-2"></i>Home
+                    <i class="bi bi-house me-2"></i><span>Home</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a href="" class="navegation">
-                    <i class="bi bi-hash me-2"></i>Explore</a>
+                    <i class="bi bi-hash me-2"></i><span>Explore</span></a>
             </li>
             <li class="nav-item">
                 <a href="" class="navegation ">
-                    <i class="bi bi-bell me-2"></i>Notifications</a>
+                    <i class="bi bi-bell me-2"></i><span>Notifications</span></a>
             </li>
             <li class="nav-item">
                 <a href="" class="navegation ">
-                    <i class="bi bi-envelope me-2"></i>Messages</a>
+                    <i class="bi bi-envelope me-2"></i><span>Messages</span></a>
             </li>
             <li class="nav-item">
                 <a href="" class="navegation ">
-                    <i class="bi bi-person-fill me-2"></i>Profile</a>
+                    <i class="bi bi-person-fill me-2"></i><span>Profile</span></a>
             </li>
             <li class="nav-item">
                 <a href="" class="navegation ">
-                    <i class="bi bi-three-dots me-2"></i>More</a>
+                    <i class="bi bi-three-dots me-2"></i><span>More</span></a>
+            </li>
+            <li>
+                <a class="btn btn-info rounded-pill px-5" href=""><i
+                        class="spanIcon me-3 dNone bi bi-chat"></i><span>Tzeet</span></a>
             </li>
         </ul>
 
-        <button type="button" id="button" class="btn rounded-pill ms-5 ps-5 pe-5">Teezar </button>
+
 
     </nav>
 
 
     <!--fim da navbar-->
-    <main class="border-start border-end">
-        <div class="border">
-            <div class="row align-items-end">
-                <div class="col-2 img-fluid ">
-                    <img src="C:\github\WEB\pastaDesWeb\WEB\lista03\assets\profile.jpg" class="imgProfile" height="100"
-                        width="100">
+
+    <!--inicio do conteudo-->
+    <main class="mainContent">
+        <!-- Header -->
+        <header class="header border broder-1">
+            <div class="row d-flex align-items-end">
+                <div class="rounded-circle d-inline col-3">
+                    <img src="assets\profile.jpg" class="rounded-circle" height="150rem">
                 </div>
 
-                <div class="col-8"></div>
+                <div class="col-6"></div>
 
-                <div class="col-2">
-                    <button type="button" id="button" class="btn ps-4 pe-4">Edit profile</button>
-                </div>
+
+                <button type="button" class="profileButton col-3 rounded-pill btn btn-info">
+                    Edit profile
+                </button>
+
             </div>
 
             <h4 id="textBody">Gustavo Martins</h4>
@@ -74,22 +82,25 @@
             <p id="textBody">Lorem ipsum dolor sit amet . The graphic and typographic operators know this well.</p>
 
 
-            <ul class="userId">
-                Quixadá - CE
-                Joined July 06 2014
-            </ul>
+            <p class="userId">
+                <i class="bi bi-geo-alt"></i> Quixadá
+                <i class="bi bi-calendar3"></i> Joined July 06 2014
+            </p>
+
             <ul class="statistics">
                 <span id="bold">542</span> <span>following</span>
                 <span id="bold">387</span> <span>followers</span>
             </ul>
 
-            <div class="row">
-                <a class="posts col-3" href="">Tzeets</a>
-                <a class="posts col-3" href="">Tzeets & Replies</a>
-                <a class="posts col-3" href="">Media</a>
-                <a class="posts col-3" href="">Likes</a>
+            <div class="container">
+                <div class="row aligh-itens-center text-center">
+                    <a class="posts col-3" href="">Tzeets</a>
+                    <a class="posts col-3" href="">Tzeets & Replies</a>
+                    <a class="posts col-3" href="">Media</a>
+                    <a class="posts col-3" href="">Likes</a>
+                </div>
             </div>
-        </div>
+        </header>
 
 
         <div class="border">
@@ -100,11 +111,11 @@
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
                     suscipit laboriosam, nisi ut aliquid ex ea commod
                 </p>
-                <div id="actions">
-                    <a class="replyAndShare" href="">Reply</a>
-                    <a class="retzeet" href="">Retzeet</a>
-                    <a class="like" href="">Like</a>
-                    <a class="replyAndShare" href="">Share</a>
+                <div id="actions" class="col-12 row align-items-center text-center px-5">
+                    <a class="replyAndShare col-3" href=""> <i class="bi bi-chat me-2"></i>Reply</a>
+                    <a class="retzeet col-3" href=""> <i class="bi bi-arrow-repeat me-2"></i>Retzeet</a>
+                    <a class="like col-3" href=""> <i class="bi bi-heart me-2"></i>Like</a>
+                    <a class="replyAndShare col-3" href=""> <i class="bi bi-upload me-2">Share</i></a>
                 </div>
             </div>
 
@@ -114,28 +125,92 @@
                     Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
                     et dolore magna aliqua.
                 </p>
-                <div id="actions">
-                    <a class="replyAndShare" href="">Reply</a>
-                    <a class="retzeet" href="">Retzeet</a>
-                    <a class="like" href="">Like</a>
-                    <a class="replyAndShare" href="">Share</a>
+                <div id="actions" class="col-12 row align-items-center text-center px-5">
+                    <a class="replyAndShare col-3" href=""> <i class="bi bi-chat me-2"></i>Reply</a>
+                    <a class="retzeet col-3" href=""> <i class="bi bi-arrow-repeat me-2"></i>Retzeet</a>
+                    <a class="like col-3" href=""> <i class="bi bi-heart me-2"></i>Like</a>
+                    <a class="replyAndShare col-3" href=""> <i class="bi bi-upload me-2">Share</i></a>
                 </div>
             </div>
         </div>
+
+        <div id="tzeet">
+            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Jun 22, 2022</span></p>
+            <p id="textBody">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commod
+            </p>
+            <div id="actions" class="col-12 row align-items-center text-center px-5">
+                <a class="replyAndShare col-3" href=""> <i class="bi bi-chat me-2"></i>Reply</a>
+                <a class="retzeet col-3" href=""> <i class="bi bi-arrow-repeat me-2"></i>Retzeet</a>
+                <a class="like col-3" href=""> <i class="bi bi-heart me-2"></i>Like</a>
+                <a class="replyAndShare col-3" href=""> <i class="bi bi-upload me-2">Share</i></a>
+            </div>
+        </div>
+
+        <div id="tzeet">
+            <p id="textBody"> Gustavo Martins <span id="userId">@gus.mrtns Sep 15, 2021</span></p>
+            <p id="textBody">
+                Lore ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+                et dolore magna aliqua.
+            </p>
+            <div id="actions" class="col-12 row align-items-center text-center px-5">
+                <a class="replyAndShare col-3" href=""> <i class="bi bi-chat me-2"></i>Reply</a>
+                <a class="retzeet col-3" href=""> <i class="bi bi-arrow-repeat me-2"></i>Retzeet</a>
+                <a class="like col-3" href=""> <i class="bi bi-heart me-2"></i>Like</a>
+                <a class="replyAndShare col-3" href=""> <i class="bi bi-upload me-2">Share</i></a>
+            </div>
+        </div>
+
+        </div>
     </main>
 
+    <!--fim do conteudo-->
+
     <!-- rodapé -->
-    <div>
-        <footer>
-            <p>
-                <a href="">About</a>
-                <a href="">Help</a>
-                <a href="">Terms</a>
-                <a href="">Privacy</a>
-                <a href="">Cookies</a>
-                <a href="">Advertise</a>
-                <a href="">Contact</a>
+    <div class="rightMenu border broder-1">
+        <!-- Forms de Pesquisa -->
+        <div class="form-control rounded-pill d-flex mb-3">
+            <div class="input-group bgColor">
+                <button class="btn" type="button" id="button-addon2">
+                    <i class="bi bi-search"></i>
+                </button>
+                <input type="text" class="inputForms border-0 bgColor" placeholder="Username"
+                    aria-describedby="button-addon2" />
+            </div>
+        </div>
+        <!-- Sugestões -->
+        <div class="suggestions rounded-3 p-3 bgColor">
+            <ul>
+                <li class="userCard my-3">
+                    <div class="d-flex align-items-end">
+                        <img src="assets\sugests01.png" alt="" width="48px" height="48px" class="mx-1 rounded-circle" />
+                        <a href="" class="mx-1 text-center">Gaby D</a>
+                        <button class="btn btn-info mx-1">Seguir</button>
+                    </div>
+                </li>
+                <li class="userCard my-3">
+                    <div class="d-flex align-items-center">
+                        <img src="assets\sugests02.png" alt="" width="48px" height="48px" class="mx-1 rounded-circle" />
+                        <a href="" class="mx-1 text-center">Gabriel J</a>
+                        <button class="btn btn-info mx-1">Seguir</button>
+                    </div>
+                </li>
+                <li class="userCard my-3">
+                    <div class="d-flex align-items-center">
+                        <img src="assets\sugests03.png" alt="" width="48px" height="48px" class="mx-1 rounded-circle" />
+                        <a href="" class="mx-1 text-center">Guilherme B</a>
+                        <button class="btn btn-info mx-1">Seguir</button>
+                    </div>
+                </li>
+                <li>
+                    <a href="" class="text-center">mostrar mais</a>
+                </li>
+            </ul>
+        </div>
     </div>
+    <!-- fim do rodapé -->
 
 
 

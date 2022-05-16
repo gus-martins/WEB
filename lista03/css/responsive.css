@@ -1,0 +1,29 @@
+@media (max-width: 756px) {
+    .rightMenu {
+        display: none;
+    }
+
+    .leftMenu li span {
+        display: none;
+    }
+
+    .spanIcon {
+        display: block;
+    }
+
+    .btn-info {
+        border-radius: 0;
+        width: 0.5rem;
+        padding: 0;
+    }
+
+    .rounded-pill i {
+        margin: 0;
+    }
+}
+
+@media (min-width: 757px) {
+    .dNone {
+        display: none;
+    }
+}

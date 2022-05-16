@@ -5,3 +5,8 @@ a {
 ul {
     list-style: none !important;
 }
+
+header div a {
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-weight: 600;
+}
