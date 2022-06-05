@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Profile</title>
+</head>
+
+<body>
+    <!-- inicio navbar -->
+    <div class="row d-flex">
+        <nav class="leftMenu col-2">
+            <img src="assets\tiziu.png" alt="" class="ms-5 mt-2 mb-2">
+            <ul class="navBar px-3 ps-5">
+                <li class="nav-item">
+                    <a href="index.html" class="navegation">
+                        <i class="bi bi-house me-2"></i><span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation">
+                        <i class="bi bi-hash me-2"></i><span>Explore</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-bell me-2"></i><span>Notifications</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-envelope me-2"></i><span>Messages</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-person-fill me-2"></i><span>Profile</span></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="navegation ">
+                        <i class="bi bi-three-dots me-2"></i><span>More</span></a>
+                </li>
+                <li>
+                    <a class="btn btn-info rounded-pill px-5" href=""><i
+                            class="spanIcon me-3 dNone bi bi-chat"></i><span>Tzeet</span></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!--fim da navbar-->
+
+        <main class="mainContent col-7">
+            <!-- Header -->
+            <header class="header border broder-1">
+                <div class="row d-flex align-items-end">
+                    <div class="rounded-circle d-inline col-2">
+                        <h3>Home</h3>
+                        <img src="assets\profile.jpg" class="rounded-circle" height="100rem">
+                    </div>
+                    <div class="col-10">
+                        <p><strong></strong> <span class="textarea" role="textbox" contenteditable></span></p>
+
+                        <div><a href="" class="configReply"><i class="bi bi-globe2"></i> everyone can reply</div></a>
+                    </div>
+                </div>
+                <div class="row d-flex align-itens-end">
+                    <div class="col-2"></div>
+                    <div class="col-7 border-top mt-2">
+                        <div class="mt-3">
+                            <a href=""><i class="bi bi-image me-2"></i></a>
+                            <a href=""><i class="bi bi-file-earmark me-2"></i></a>
+                            <a href=""><i class="bi bi-emoji-smile me-2"></i></a>
+                            <a href=""><i class="bi bi-bar-chart me-2"></i></a>
+                            <a href=""><i class="bi bi-calendar-event me-2"></i></a>
+                            <a href=""><i class="bi bi-geo-alt me-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-3 border-top mt-2">
+                        <a href=""><i class="bi bi-plus-circle"></i></a>
+                        <button type="button" class="profileButton rounded-pill btn btn-info mt-2">Submmit</button>
+                    </div>
+                </div>
+
+            </header>
+
+        </main>
+        <!--fim do header -->
+
+        <!-- rodapé -->
+        <div class="rightMenu border broder-1 col-3">
+            <!-- Forms de Pesquisa -->
+            <div class="form-control rounded-pill d-flex mb-3">
+                <div class="input-group bgColor">
+                    <button class="btn" type="button" id="button-addon2">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <input type="text" class="inputForms border-0 bgColor" placeholder="Username"
+                        aria-describedby="button-addon2" />
+                </div>
+            </div>
+            <!-- Sugestões -->
+            <div class="suggestions rounded-3 p-3 bgColor">
+                <ul>
+                    <li class="userCard my-3">
+                        <div class="d-flex align-items-end">
+                            <img src="assets\sugests01.png" alt="" width="48px" height="48px"
+                                class="mx-1 rounded-circle" />
+                            <a href="" class="mx-1 text-center">Gaby D</a>
+                            <button class="btn btn-info mx-1">follow</button>
+                        </div>
+                    </li>
+                    <li class="userCard my-3">
+                        <div class="d-flex align-items-center">
+                            <img src="assets\sugests02.png" alt="" width="48px" height="48px"
+                                class="mx-1 rounded-circle" />
+                            <a href="" class="mx-1 text-center">Gabriel J</a>
+                            <button class="btn btn-info mx-1">follow</button>
+                        </div>
+                    </li>
+                    <li class="userCard my-3">
+                        <div class="d-flex align-items-center">
+                            <img src="assets\sugests03.png" alt="" width="48px" height="48px"
+                                class="mx-1 rounded-circle" />
+                            <a href="" class="mx-1 text-center">Guilherme B</a>
+                            <button class="btn btn-info mx-1">follow</button>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="" class="text-center">show more</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- fim do rodapé -->
+
+    </div>
+
+</body>
+
+</html>
